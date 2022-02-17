@@ -1,0 +1,80 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 45px;
+  width: 130px;
+  background-color: white;
+  display: none;
+}
+
+body header {
+  text-align: center;
+}
+
+body header h1 {
+  font-size: 52px;
+  margin-bottom: 3%;
+}
+
+body header a {
+  color: black;
+  font-size: 25px;
+  padding: 8px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-decoration: none;
+}
+
+body header a:visited {
+  color: black;
+}
+
+body header a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#buttons {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#questions p {
+  text-align: center;
+  font-size: 30px;
+}
+
+#questions {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: 380px;
+  margin-right: 380px;
+  padding: 10px;
+}
+
+footer {
+  position: absolute;
+  top: 250%;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  #questions {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
