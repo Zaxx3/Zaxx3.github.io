@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    
+   <title>eWave</title>
+</head>
+<body>
+    <header>
+        <div id="buttons">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+           
+        </div>
+        <h1>Gallery</h1>
+        
+    </header>
+
+    <div class="owl-carousel">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+
+      </div>
+    
+     
+
+    <footer>
+        <p>Author: Maxim Aliev</p>
+        <p>Date: 2/16/2022</p>
+        <button onclick="toTop()" id="scrollToTop">To the top</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+        <script src="script.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel({
+                itemsMobile:[500,1]
+
+                  
+            })
+            });
+        </script>
+
+    </footer>
+    
+    
+
+
+</body>
+
+
+
+</html>
